@@ -1,5 +1,4 @@
 import React from 'react';
-import './index.css';
 
 import Translator from '../translator/';
 
@@ -13,17 +12,17 @@ export default class mainForm extends Translator {
   }
 
   render(){
-    return (<>
+    return (<div className="container">
       <form>
         <div class="form-group">
           <label for="inputText">Русский текст:</label>
-          <textarea class="form-control" id="inputText" rows="7" onChange={this.onTextChange}></textarea>
+          <textarea className="form-control" id="inputText" rows="7" onChange={this.onTextChange}></textarea>
         </div>
         <div class="form-group">
           <label for="inputVzuh">Вжух текст:</label>
-          <textarea class="form-control" id="inputVzuh" rows="7" onChange={this.onVzuhChange}></textarea>
+          <textarea className="form-control" id="inputVzuh" rows="7" onChange={this.onVzuhChange}></textarea>
         </div>
       </form>
-    </>);
+    </div>);
   }
 }

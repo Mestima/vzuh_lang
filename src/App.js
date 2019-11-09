@@ -6,10 +6,8 @@ import Form from './components/mainForm/';
 function App() {
   return (
     <div className="App">
-      <div className="App-main">
-        <header className="App-logo">
-          <h1>"Вжух" переводчик!</h1>
-        </header>
+      <div className="App-main position-relative">
+        <h1 className="py-5 m-5">Жужа транслятор!</h1>
         <Form />
         <a
           className = "App-link"
