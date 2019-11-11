@@ -18,6 +18,10 @@ Object.prototype.hasValue = function(value) {
   return false;
 };
 
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
 const keyWord = {
   'А': 'жжжжжжж',
   'Б': 'жжжжжжЖ',
@@ -107,7 +111,8 @@ const keyWord = {
   '/': 'ЖжЖжЖжЖ',
   '*': 'ЖжЖжЖЖж',
   ':': 'ЖжЖжЖЖЖ',
-  ' ': 'в'
+  ' ': 'в',
+  '': ' '
 }
 
 export default class Translator extends React.Component {
@@ -117,6 +122,10 @@ export default class Translator extends React.Component {
       var tmp = text.charAt(i);
       if (keyWord.hasOwnProperty(tmp)) {
         res += keyWord[tmp];
+        var r = getRandomInt(100);
+        if (r > 50) {
+          res += ' ';
+        }
       }
     }
     return res;
