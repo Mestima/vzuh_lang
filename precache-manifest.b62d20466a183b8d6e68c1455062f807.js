@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "650a037c20d6184aa7003a62b1a62ab8",
+    "revision": "a4f8c8edc09073a9bbb153c020140d93",
     "url": "/vzuh_lang/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vzuh_lang/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "8be8cf6b610b9285c29f",
+    "revision": "418f5aa3b47d63f66c06",
     "url": "/vzuh_lang/static/css/main.e09c209f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vzuh_lang/static/js/2.5b4a4664.chunk.js"
   },
   {
-    "revision": "8be8cf6b610b9285c29f",
-    "url": "/vzuh_lang/static/js/main.1f4f45bb.chunk.js"
+    "revision": "418f5aa3b47d63f66c06",
+    "url": "/vzuh_lang/static/js/main.84169bd2.chunk.js"
   },
   {
     "revision": "cf803f75907dc9a6ab29",

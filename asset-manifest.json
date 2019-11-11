@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vzuh_lang/static/css/main.e09c209f.chunk.css",
-    "main.js": "/vzuh_lang/static/js/main.1f4f45bb.chunk.js",
-    "main.js.map": "/vzuh_lang/static/js/main.1f4f45bb.chunk.js.map",
+    "main.js": "/vzuh_lang/static/js/main.84169bd2.chunk.js",
+    "main.js.map": "/vzuh_lang/static/js/main.84169bd2.chunk.js.map",
     "runtime-main.js": "/vzuh_lang/static/js/runtime-main.7eefbd1f.js",
     "runtime-main.js.map": "/vzuh_lang/static/js/runtime-main.7eefbd1f.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/vzuh_lang/static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.5b4a4664.chunk.js": "/vzuh_lang/static/js/2.5b4a4664.chunk.js",
     "static/js/2.5b4a4664.chunk.js.map": "/vzuh_lang/static/js/2.5b4a4664.chunk.js.map",
     "index.html": "/vzuh_lang/index.html",
-    "precache-manifest.d8237ba6ef1f99c7a80e755724f38b83.js": "/vzuh_lang/precache-manifest.d8237ba6ef1f99c7a80e755724f38b83.js",
+    "precache-manifest.b62d20466a183b8d6e68c1455062f807.js": "/vzuh_lang/precache-manifest.b62d20466a183b8d6e68c1455062f807.js",
     "service-worker.js": "/vzuh_lang/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/vzuh_lang/static/css/2.b0bb7f2c.chunk.css.map",
     "static/css/main.e09c209f.chunk.css.map": "/vzuh_lang/static/css/main.e09c209f.chunk.css.map"
@@ -19,6 +19,6 @@
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.5b4a4664.chunk.js",
     "static/css/main.e09c209f.chunk.css",
-    "static/js/main.1f4f45bb.chunk.js"
+    "static/js/main.84169bd2.chunk.js"
   ]
 }
