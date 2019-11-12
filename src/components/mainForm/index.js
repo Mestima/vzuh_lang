@@ -4,11 +4,11 @@ import Translator from '../translator/';
 
 export default class mainForm extends Translator {
   onTextChange = () => {
-    document.getElementById('inputVzuh').value = this.toVzuh(document.getElementById('inputText').value);
+    document.getElementById('inputVzuh').value = this.convert(document.getElementById('inputText').value);
   }
 
   onVzuhChange = () => {
-    document.getElementById('inputText').value = this.toText(document.getElementById('inputVzuh').value);
+    document.getElementById('inputText').value = this.deconvert(document.getElementById('inputVzuh').value);
   }
 
   render(){
