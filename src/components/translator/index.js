@@ -26,7 +26,7 @@ const CH_4 = 'в'.charCodeAt(0);
 function flip_coin() {
   var y = Math.random();
   if (y<0.5) {
-    y =Math.floor(y)
+    y = Math.floor(y)
   } else {
     y = Math.ceil(y)
   }
